@@ -1,3 +1,23 @@
+# Image formats:
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+
+# Audio formats:
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.aiff filter=lfs diff=lfs merge=lfs -text
+# 3D model formats:
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+# Unity formats:
+*.sbsar filter=lfs diff=lfs merge=lfs -text
+*.unity filter=lfs diff=lfs merge=lfs -text
+# Other binary formats
+*.dll filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
 *.csproj filter=lfs diff=lfs merge=lfs -text
 *.meta filter=lfs diff=lfs merge=lfs -text
@@ -5,11 +25,8 @@
 *.anim filter=lfs diff=lfs merge=lfs -text
 *.mat filter=lfs diff=lfs merge=lfs -text
 *.prefab filter=lfs diff=lfs merge=lfs -text
-*.unity filter=lfs diff=lfs merge=lfs -text
 *.lighting filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
 *.asset filter=lfs diff=lfs merge=lfs -text
-*.wav filter=lfs diff=lfs merge=lfs -text
 *.pdf filter=lfs diff=lfs merge=lfs -text
 *.txt filter=lfs diff=lfs merge=lfs -text
 *.cs filter=lfs diff=lfs merge=lfs -text
@@ -7068,7 +7085,6 @@
 *.dag_fsmtime filter=lfs diff=lfs merge=lfs -text
 *.state filter=lfs diff=lfs merge=lfs -text
 *.map filter=lfs diff=lfs merge=lfs -text
-*.dll filter=lfs diff=lfs merge=lfs -text
 *.mvfrm filter=lfs diff=lfs merge=lfs -text
 *.rsp filter=lfs diff=lfs merge=lfs -text
 *.pdb filter=lfs diff=lfs merge=lfs -text
@@ -7096,7 +7112,6 @@
 *.preset filter=lfs diff=lfs merge=lfs -text
 *.spriteatlas filter=lfs diff=lfs merge=lfs -text
 *.ase filter=lfs diff=lfs merge=lfs -text
-*.psd filter=lfs diff=lfs merge=lfs -text
 /Library/PackageCache/com.unity.burst@1.6.6/.Runtime/207A89C76C3730EA filter=lfs diff=lfs merge=lfs -text
 /Library/PackageCache/com.unity.burst@1.6.6/.Runtime/43FFF67504C1B77C filter=lfs diff=lfs merge=lfs -text
 /Library/PackageCache/com.unity.burst@1.6.6/.Runtime/66B6680AF8A7451D filter=lfs diff=lfs merge=lfs -text
@@ -7117,7 +7132,6 @@
 *.xml filter=lfs diff=lfs merge=lfs -text
 *.collabattributes filter=lfs diff=lfs merge=lfs -text
 *.collabignore filter=lfs diff=lfs merge=lfs -text
-*.gif filter=lfs diff=lfs merge=lfs -text
 *.editorconfig filter=lfs diff=lfs merge=lfs -text
 *.pbxproj filter=lfs diff=lfs merge=lfs -text
 *.xcworkspacedata filter=lfs diff=lfs merge=lfs -text
@@ -7134,10 +7148,8 @@
 *.svg filter=lfs diff=lfs merge=lfs -text
 *.unitypackage filter=lfs diff=lfs merge=lfs -text
 *.po filter=lfs diff=lfs merge=lfs -text
-*.fbx filter=lfs diff=lfs merge=lfs -text
 *.playable filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
-*.mp3 filter=lfs diff=lfs merge=lfs -text
 *.signal filter=lfs diff=lfs merge=lfs -text
 *.release filter=lfs diff=lfs merge=lfs -text
 *.mdb filter=lfs diff=lfs merge=lfs -text
